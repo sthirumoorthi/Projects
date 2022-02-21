@@ -1,0 +1,68 @@
+2022-02-21 22:13:42,342 INFO -------#####   Application Started   #####--------
+2022-02-21 22:14:04,537 INFO ... class PyMongoDatabase was initiated ...
+2022-02-21 22:14:04,538 INFO ... class PyMongoDbFindFilter was initiated ...
+2022-02-21 22:14:04,538 INFO ... class PyMongoDbOperations was initiated ...
+2022-02-21 22:14:08,943 INFO ... class PyMongoDatabase was initiated ...
+2022-02-21 22:14:08,943 INFO ... class PyMongoDbDropColl was initiated ...
+2022-02-21 22:14:13,790 INFO Data Base Connection Established........ 
+DB Name: Carbon_Nanotubes_DB 
+Collection: Carbon_Nanotubes_COLL
+2022-02-21 22:14:42,743 INFO ... class PyMongoBulkLoad was initiated ...
+2022-02-21 22:14:43,814 INFO CSV File Read was success.. Data has been converted to Dictionary format
+2022-02-21 22:15:24,972 INFO All the documents loaded successfully in collection Collection(Database(MongoClient(host=['cluster0-shard-00-02.3tlei.mongodb.net:27017', 'cluster0-shard-00-01.3tlei.mongodb.net:27017', 'cluster0-shard-00-00.3tlei.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-lyoyl0-shard-0', tls=True, tlsallowinvalidcertificates=True, tlsdisableocspendpointcheck=True), 'Carbon_Nanotubes_DB'), 'Carbon_Nanotubes_COLL')
+2022-02-21 22:15:35,875 ERROR Exception occurred in find_doc: Invalid format specifier
+Traceback (most recent call last):
+  File "C:\Users\KEERTHI\Desktop\ML Models\iNueron\Assignments\Sudhanshu\MongoDB Bulk Load\MongoDataLoad\PyMongoDB.py", line 52, in find_doc
+    logging.info(f"Find doc initiated for {column: {operator: value}} for the collection {self.coll}")
+ValueError: Invalid format specifier
+2022-02-21 22:21:38,652 INFO Get count initiated for {} in the collection Collection(Database(MongoClient(host=['cluster0-shard-00-02.3tlei.mongodb.net:27017', 'cluster0-shard-00-01.3tlei.mongodb.net:27017', 'cluster0-shard-00-00.3tlei.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-lyoyl0-shard-0', tls=True, tlsallowinvalidcertificates=True, tlsdisableocspendpointcheck=True), 'Carbon_Nanotubes_DB'), 'Carbon_Nanotubes_COLL')
+2022-02-21 22:21:56,422 INFO Document loaded successfully in collection Collection(Database(MongoClient(host=['cluster0-shard-00-02.3tlei.mongodb.net:27017', 'cluster0-shard-00-01.3tlei.mongodb.net:27017', 'cluster0-shard-00-00.3tlei.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-lyoyl0-shard-0', tls=True, tlsallowinvalidcertificates=True, tlsdisableocspendpointcheck=True), 'Carbon_Nanotubes_DB'), 'Carbon_Nanotubes_COLL')
+2022-02-21 22:21:57,517 INFO Document loaded successfully in collection Collection(Database(MongoClient(host=['cluster0-shard-00-02.3tlei.mongodb.net:27017', 'cluster0-shard-00-01.3tlei.mongodb.net:27017', 'cluster0-shard-00-00.3tlei.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-lyoyl0-shard-0', tls=True, tlsallowinvalidcertificates=True, tlsdisableocspendpointcheck=True), 'Carbon_Nanotubes_DB'), 'Carbon_Nanotubes_COLL')
+2022-02-21 22:21:58,586 INFO Document loaded successfully in collection Collection(Database(MongoClient(host=['cluster0-shard-00-02.3tlei.mongodb.net:27017', 'cluster0-shard-00-01.3tlei.mongodb.net:27017', 'cluster0-shard-00-00.3tlei.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-lyoyl0-shard-0', tls=True, tlsallowinvalidcertificates=True, tlsdisableocspendpointcheck=True), 'Carbon_Nanotubes_DB'), 'Carbon_Nanotubes_COLL')
+2022-02-21 22:22:02,183 ERROR Exception occurred in find_doc: Invalid format specifier
+Traceback (most recent call last):
+  File "C:\Users\KEERTHI\Desktop\ML Models\iNueron\Assignments\Sudhanshu\MongoDB Bulk Load\MongoDataLoad\PyMongoDB.py", line 52, in find_doc
+    logging.info(f"Find doc initiated for {column: {operator: value}} for the collection {self.coll}")
+ValueError: Invalid format specifier
+2022-02-21 22:22:07,078 ERROR Exception occurred in find_doc: Invalid format specifier
+Traceback (most recent call last):
+  File "C:\Users\KEERTHI\Desktop\ML Models\iNueron\Assignments\Sudhanshu\MongoDB Bulk Load\MongoDataLoad\PyMongoDB.py", line 52, in find_doc
+    logging.info(f"Find doc initiated for {column: {operator: value}} for the collection {self.coll}")
+ValueError: Invalid format specifier
+2022-02-21 22:24:10,227 INFO Documents were updated for {'Chiral indice n': {'$eq': 1}} in the collection Collection(Database(MongoClient(host=['cluster0-shard-00-02.3tlei.mongodb.net:27017', 'cluster0-shard-00-01.3tlei.mongodb.net:27017', 'cluster0-shard-00-00.3tlei.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-lyoyl0-shard-0', tls=True, tlsallowinvalidcertificates=True, tlsdisableocspendpointcheck=True), 'Carbon_Nanotubes_DB'), 'Carbon_Nanotubes_COLL')
+2022-02-21 22:24:14,811 ERROR Exception occurred in find_doc: Invalid format specifier
+Traceback (most recent call last):
+  File "C:\Users\KEERTHI\Desktop\ML Models\iNueron\Assignments\Sudhanshu\MongoDB Bulk Load\MongoDataLoad\PyMongoDB.py", line 52, in find_doc
+    logging.info(f"Find doc initiated for {column: {operator: value}} for the collection {self.coll}")
+ValueError: Invalid format specifier
+2022-02-21 22:25:11,398 INFO Document was updated for {'Chiral indice n': {'$eq': 13}} in the collection Collection(Database(MongoClient(host=['cluster0-shard-00-02.3tlei.mongodb.net:27017', 'cluster0-shard-00-01.3tlei.mongodb.net:27017', 'cluster0-shard-00-00.3tlei.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-lyoyl0-shard-0', tls=True, tlsallowinvalidcertificates=True, tlsdisableocspendpointcheck=True), 'Carbon_Nanotubes_DB'), 'Carbon_Nanotubes_COLL')
+2022-02-21 22:25:12,594 ERROR Exception occurred in find_doc: Invalid format specifier
+Traceback (most recent call last):
+  File "C:\Users\KEERTHI\Desktop\ML Models\iNueron\Assignments\Sudhanshu\MongoDB Bulk Load\MongoDataLoad\PyMongoDB.py", line 52, in find_doc
+    logging.info(f"Find doc initiated for {column: {operator: value}} for the collection {self.coll}")
+ValueError: Invalid format specifier
+2022-02-21 22:25:51,097 INFO Document was updated for {'Chiral indice n': {'$eq': 17}} in the collection Collection(Database(MongoClient(host=['cluster0-shard-00-02.3tlei.mongodb.net:27017', 'cluster0-shard-00-01.3tlei.mongodb.net:27017', 'cluster0-shard-00-00.3tlei.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-lyoyl0-shard-0', tls=True, tlsallowinvalidcertificates=True, tlsdisableocspendpointcheck=True), 'Carbon_Nanotubes_DB'), 'Carbon_Nanotubes_COLL')
+2022-02-21 22:25:52,959 ERROR Exception occurred in find_doc: Invalid format specifier
+Traceback (most recent call last):
+  File "C:\Users\KEERTHI\Desktop\ML Models\iNueron\Assignments\Sudhanshu\MongoDB Bulk Load\MongoDataLoad\PyMongoDB.py", line 52, in find_doc
+    logging.info(f"Find doc initiated for {column: {operator: value}} for the collection {self.coll}")
+ValueError: Invalid format specifier
+2022-02-21 22:27:02,111 INFO Documents were deleted for {'Chiral indice n': {'$eq': 16}} in the collection Collection(Database(MongoClient(host=['cluster0-shard-00-02.3tlei.mongodb.net:27017', 'cluster0-shard-00-01.3tlei.mongodb.net:27017', 'cluster0-shard-00-00.3tlei.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-lyoyl0-shard-0', tls=True, tlsallowinvalidcertificates=True, tlsdisableocspendpointcheck=True), 'Carbon_Nanotubes_DB'), 'Carbon_Nanotubes_COLL')
+2022-02-21 22:27:04,332 ERROR Exception occurred in find_doc: Invalid format specifier
+Traceback (most recent call last):
+  File "C:\Users\KEERTHI\Desktop\ML Models\iNueron\Assignments\Sudhanshu\MongoDB Bulk Load\MongoDataLoad\PyMongoDB.py", line 52, in find_doc
+    logging.info(f"Find doc initiated for {column: {operator: value}} for the collection {self.coll}")
+ValueError: Invalid format specifier
+2022-02-21 22:27:34,048 INFO Document was deleted for {'Chiral indice n': {'$eq': 18}} in the collection Collection(Database(MongoClient(host=['cluster0-shard-00-02.3tlei.mongodb.net:27017', 'cluster0-shard-00-01.3tlei.mongodb.net:27017', 'cluster0-shard-00-00.3tlei.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-lyoyl0-shard-0', tls=True, tlsallowinvalidcertificates=True, tlsdisableocspendpointcheck=True), 'Carbon_Nanotubes_DB'), 'Carbon_Nanotubes_COLL')
+2022-02-21 22:27:35,285 ERROR Exception occurred in find_doc: Invalid format specifier
+Traceback (most recent call last):
+  File "C:\Users\KEERTHI\Desktop\ML Models\iNueron\Assignments\Sudhanshu\MongoDB Bulk Load\MongoDataLoad\PyMongoDB.py", line 52, in find_doc
+    logging.info(f"Find doc initiated for {column: {operator: value}} for the collection {self.coll}")
+ValueError: Invalid format specifier
+2022-02-21 22:28:44,349 INFO Find all doc initiated for the collection Collection(Database(MongoClient(host=['cluster0-shard-00-02.3tlei.mongodb.net:27017', 'cluster0-shard-00-01.3tlei.mongodb.net:27017', 'cluster0-shard-00-00.3tlei.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-lyoyl0-shard-0', tls=True, tlsallowinvalidcertificates=True, tlsdisableocspendpointcheck=True), 'Carbon_Nanotubes_DB'), 'Carbon_Nanotubes_COLL')
+2022-02-21 22:28:52,217 INFO Get count initiated for {} in the collection Collection(Database(MongoClient(host=['cluster0-shard-00-02.3tlei.mongodb.net:27017', 'cluster0-shard-00-01.3tlei.mongodb.net:27017', 'cluster0-shard-00-00.3tlei.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-lyoyl0-shard-0', tls=True, tlsallowinvalidcertificates=True, tlsdisableocspendpointcheck=True), 'Carbon_Nanotubes_DB'), 'Carbon_Nanotubes_COLL')
+2022-02-21 22:28:55,459 INFO Get doc limit initiated for the collection Collection(Database(MongoClient(host=['cluster0-shard-00-02.3tlei.mongodb.net:27017', 'cluster0-shard-00-01.3tlei.mongodb.net:27017', 'cluster0-shard-00-00.3tlei.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-lyoyl0-shard-0', tls=True, tlsallowinvalidcertificates=True, tlsdisableocspendpointcheck=True), 'Carbon_Nanotubes_DB'), 'Carbon_Nanotubes_COLL')
+2022-02-21 22:29:18,263 INFO Filter AND initiated for {'Chiral indice n': {'$eq': 2}} and {'Chiral indice m': {'$eq': 1}} in the collection Collection(Database(MongoClient(host=['cluster0-shard-00-02.3tlei.mongodb.net:27017', 'cluster0-shard-00-01.3tlei.mongodb.net:27017', 'cluster0-shard-00-00.3tlei.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-lyoyl0-shard-0', tls=True, tlsallowinvalidcertificates=True, tlsdisableocspendpointcheck=True), 'Carbon_Nanotubes_DB'), 'Carbon_Nanotubes_COLL')
+2022-02-21 22:31:35,516 INFO Filter OR initiated for {'Chiral indice n': {'$eq': 2}} and {'Chiral indice m': {'$eq': 1}} in the collection Collection(Database(MongoClient(host=['cluster0-shard-00-02.3tlei.mongodb.net:27017', 'cluster0-shard-00-01.3tlei.mongodb.net:27017', 'cluster0-shard-00-00.3tlei.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-lyoyl0-shard-0', tls=True, tlsallowinvalidcertificates=True, tlsdisableocspendpointcheck=True), 'Carbon_Nanotubes_DB'), 'Carbon_Nanotubes_COLL')
+2022-02-21 22:37:38,427 INFO The collection Collection(Database(MongoClient(host=['cluster0-shard-00-02.3tlei.mongodb.net:27017', 'cluster0-shard-00-01.3tlei.mongodb.net:27017', 'cluster0-shard-00-00.3tlei.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-lyoyl0-shard-0', tls=True, tlsallowinvalidcertificates=True, tlsdisableocspendpointcheck=True), 'Carbon_Nanotubes_DB'), 'Carbon_Nanotubes_COLL') was dropped
+2022-02-21 22:37:40,770 INFO -------#####   Application END   #####--------
